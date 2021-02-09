@@ -41,7 +41,7 @@ def get_filters():
     
     city = input("Please enter the city you want to analyze: chicago, new york city or washington.\n")
     
-    #check if city name is valid.
+    #check if city name is valid
     
     while city.lower() != 'chicago' and city.lower() != 'new york city' and city.lower() != 'washington':
         city = input("Please enter a valid city name: chicago, new york city or washington.\n")

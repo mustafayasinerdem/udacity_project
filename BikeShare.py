@@ -48,7 +48,7 @@ def get_filters():
         
     city = city.lower()
     
-    #ask the user if they want filter and which one:
+    #ask the user if they want filter and which one
     
     filter_dm = input('Would you like to filter the data by month, day, both, or not at all? Type "none" for no time filter.\n')
     
